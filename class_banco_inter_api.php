@@ -555,5 +555,12 @@ class PIX {
          $length = ($length < 4) ? 4 : $length;
          return bin2hex(random_bytes(($length-($length%2))/2));
         }
-
+     
+     private function parseResultClient($result) {
+         $statusCode = $result->getResponse()->getStatusCode();
+         $response = $result->getResponse()->getReasonPhrase();
+         $body = $result->getResponse()->getBody()->getContents();
+ 
+         return ['error' => $body, 'response' => $response, 'statusCode' => $statusCode];
+        }
     }
