@@ -1,5 +1,5 @@
 {
-	"name" : "GRaduan/ApiInterV2",
+	"name" : "graduan/apiinterv2pix",
 	"type" : "package",
 	"description" : "Acesso API PIX Banco Inter",
 	"license" : "LGPL-3.0-or-later",
