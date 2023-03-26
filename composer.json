@@ -1,0 +1,21 @@
+{
+	"name" : "GRaduan/ApiInterV2",
+	"type" : "package",
+	"description" : "Acesso API PIX Banco Inter",
+	"license" : "LGPL-3.0-or-later",
+	"keywords" : [
+		"Banco Inter Intermedium emissão de cobrança API PIX"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"GRaduan\\ApiInterV2\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=7.4"
+	},
+	"require-dev" : {
+		"guzzlehttp/guzzle" : "^7.5"
+	},
+	"minimum-stability" : "stable"
+}
