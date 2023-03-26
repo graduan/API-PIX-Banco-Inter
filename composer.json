@@ -45,7 +45,7 @@
             "@test"
         ] 
     },
-    "scripts-descriptions": {
-        "Banco Inter Intermedium emissão de cobranca API PIX"
-    }
+    "scripts-descriptions": 
+        "Banco Inter Intermedium emissão de cobrança API PIX" 
+    
 } 
