@@ -26,7 +26,7 @@
              "GRaduan\\ApiInterV2\\": "src/"
             },
          "files": [
-             "src/functions_include.php"
+             "src/class_banco_inter_api.php"
             ]
 
        }
