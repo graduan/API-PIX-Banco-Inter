@@ -1,29 +1,34 @@
+
 {
-    "name": "graduan/apiinterv2pix",
-    "description": "Acesso API PIX Banco Inter",
-    "version: "0.0.1",
-    "keywords": [
-        "API",
-        "PIX",
-        "Banco Inter"
-    ],
-    "type": "library",
-    "license": "LGPL-3.0-or-later",
-    "homepage": "https://www.iconecta.host/",
-    "authors": [
-        {
-            "name": "Giancarlo Gil Ottaviani Raduan",
-            "email": "graduan@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.3",
-        "guzzlehttp/guzzle": "^7.5.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "GRaduan\\ApiInterV2\\": "src/" 
-        }
-    }
-    
-} 
+     "name": "graduan/apiinterv2pix",
+     "description": "Acesso API PIX Banco Inter",
+     "version": "0.0.1",
+     "keywords": [
+         "API",
+         "PIX",
+         "Banco Inter"
+       ],
+     "type": "library",
+     "license": "LGPL-3.0-or-later",
+     "homepage": "https://www.iconecta.host/",
+     "authors": [
+            {
+             "name": "Giancarlo Gil Ottaviani Raduan",
+             "email": "graduan@gmail.com"
+            } 
+        ],
+     "require": {
+         "php": ">=7.3",
+         "guzzlehttp/guzzle": "^7.5.0"
+        },
+     "autoload": {
+         "psr-4": {
+             "GRaduan\\ApiInterV2\\": "src/"
+            },
+         "files": [
+             "src/functions_include.php"
+            ]
+
+       }
+   } 
+
