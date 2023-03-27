@@ -1,6 +1,12 @@
 {
     "name": "graduan/apiinterv2pix",
     "description": "Acesso API PIX Banco Inter",
+    "version: "0.0.1",
+    "keywords": [
+        "API",
+        "PIX",
+        "Banco Inter"
+    ],
     "type": "library",
     "license": "LGPL-3.0-or-later",
     "homepage": "https://www.iconecta.host/",
