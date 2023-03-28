@@ -2,7 +2,7 @@
 {
      "name": "graduan/apiinterv2pix",
      "description": "Acesso API PIX Banco Inter",
-     "version": "0.0.1",
+     "version": "0.0.2",
      "keywords": [
          "API",
          "PIX",
