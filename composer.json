@@ -24,10 +24,7 @@
      "autoload": {
          "psr-4": {
              "GRaduan\\ApiInterV2\\": "src/"
-            },
-         "files": [
-             "src/class_banco_inter_api.php"
-            ]
+            }
 
        }
    } 
